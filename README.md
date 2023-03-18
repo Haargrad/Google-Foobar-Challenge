@@ -1,6 +1,6 @@
 # Google-Foobar-Challenge
 running-with-bunnies
-
+```bash
 from itertools import permutations
 
 def solution(times, time_limit):
@@ -17,3 +17,4 @@ def solution(times, time_limit):
             if total_time <= time_limit:
                 return sorted(list(bunny-1 for bunny in bunnies))
     return []
+```
